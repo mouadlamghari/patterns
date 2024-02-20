@@ -55,4 +55,5 @@ class Pc implements Product{
 
 const pc = new createPc()
 let newPc = pc.create("1","mouad",23,"s-qhe34Vhd",20,1)
+console.log(newPc.constructor.prototype) 
 
